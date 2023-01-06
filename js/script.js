@@ -52,7 +52,7 @@ const selectRandom = () => {
     setTimeout(() => {
       const random = getRandom();
 
-      finalRandom(random);
+      highlightEl(random);
     }, 300);
   }, count * 300);
 };
@@ -63,10 +63,6 @@ const getRandom = () => {
 
 const highlightEl = (el) => {
   el.classList.add('random');
-};
-
-const finalRandom = (el) => {
-  el.classList.add('random-final');
 };
 
 const unHighlightEl = (el) => {

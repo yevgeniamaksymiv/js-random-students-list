@@ -75,11 +75,7 @@ div {
   width: 40%;
 }
 
-.random {
-  border: 3px solid purple;
-}
-
-.random-final {
+.random{
   background-color: purple;
   color: white;
   border: none;
